@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Friday -->
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.charlie.tabtest.OneFragment">
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="60dp"
+        >
+
+
+
+        <LinearLayout
+
+
+            android:id="@+id/verticalView"
+
+            android:layout_width="fill_parent"
+
+            android:layout_height="fill_parent"
+
+            android:orientation="vertical" >
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="Friday, April 1"
+                android:id="@+id/button12" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="7 AM"
+                android:id="@+id/button13" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="Breakfast &#10;7-8:30 AM &#10;California ABC"
+                android:id="@+id/button14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="8:30 AM"
+                android:id="@+id/button13" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="International Performance Boards &#10;8:30AM -12 PM"
+                android:id="@+id/button14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="12 PM"
+                android:id="@+id/button13" />
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="Lunch - Pick up box lunch in California Lobby - must have lunch ticket &#10;12-1PM"
+                android:id="@+id/button14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="1 PM"
+                android:id="@+id/button13" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="Performance Boards resumes &#10;1-4 PM"
+                android:id="@+id/button14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="7 PM"
+                android:id="@+id/button13" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="Dance excellence awards gala &#10;7 PM &#10;Pacific Ballroom"
+                android:id="@+id/button14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="9 PM"
+                android:id="@+id/button13" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="Dance excellence company show &#10;9 PM &#10;California Ballroom"
+                android:id="@+id/button14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="The after party! &#10;Pacific D"
+                android:id="@+id/button14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="DE store open for business - Final Sale!!"
+                android:id="@+id/button14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                />
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>

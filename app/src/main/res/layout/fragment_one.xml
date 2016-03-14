@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Sunday -->
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+        android:paddingBottom="60dp"
+        >
+
+
+
+    <LinearLayout
+
+
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="fill_parent"
+
+        android:orientation="vertical" >
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sunday, March 27"
+        android:id="@+id/button39"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 PM"
+        android:id="@+id/button"
+        android:background="@android:color/transparent"
+        android:textSize="30dp" />
+
+    <Button
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:background="#AAEEFF"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Dance Ex Welcome and orientation &#10;2-3 PM &#10;California Ballroom" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 PM"
+        android:id="@+id/button5"
+        android:textSize="30dp" />
+
+    <Button
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:background="#AAEEFF"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Performance Workshop - Opening Sesssion with Bill and Robyn Brawley and the Young Americans &#10;3-5 PM &#10;California Ballroom" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:background="#AAEEFF"
+        android:text="DE STORE OPEN FOR BUISNESS &#10;3-7 PM"
+        android:layout_marginTop="8dp"
+        android:id="@+id/button15"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="5 PM"
+        android:id="@+id/button8" />
+
+    <Button
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:background="#AAEEFF"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Dinner &#10;5-6:30 pm &#10;PACIFIC BALLROOM" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="7 pm"
+        android:id="@+id/button6" />
+
+    <Button
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:background="#AAEEFF"
+
+        android:text="Welcome Dance party &#10;7-9 PM&#10;California Ballroom"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+
+        />
+
+
+    <Button
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:background="#AAEEFF"
+        android:text="DE Company Rehearsal &#10;7-11 PM &#10;Pacific Ballroom"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:background="#AAEEFF"
+        android:text="Director&apos;s Welcome Reception &#10;7-9PM&#10;presidential suite 5th Floor"
+        android:id="@+id/button10"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

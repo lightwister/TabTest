@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Thursday -->
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.charlie.tabtest.OneFragment">
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="60dp"
+        >
+
+
+
+        <LinearLayout
+
+
+            android:id="@+id/verticalView"
+
+            android:layout_width="fill_parent"
+
+            android:layout_height="fill_parent"
+
+            android:orientation="vertical" >
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="Thursday, March 31"
+                android:id="@+id/button12" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="Take arts shuttle bus to and from main gate at disneyland"
+                android:id="@+id/button14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="Disney performance schedule &#10;&#10;"
+                android:id="@+id/button14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Wednesday -->
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.charlie.tabtest.OneFragment">
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="60dp"
+        >
+
+
+
+        <LinearLayout
+
+
+            android:id="@+id/verticalView"
+
+            android:layout_width="fill_parent"
+
+            android:layout_height="fill_parent"
+
+            android:orientation="vertical" >
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="Wednesday, March 30"
+                android:id="@+id/button12" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="7 AM"
+                android:id="@+id/button13" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="Breakfast &#10; 7-9 AM &#10; 4th Floor"
+                android:id="@+id/button14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="8 AM"
+                android:id="@+id/button48" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="DE Store Open &#10;8-9:30 AM"
+                android:id="@+id/button47"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="8:30 AM"
+                android:id="@+id/button7" />
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#f4ff4c"
+                android:text="Ballet - David Wilcox &#10;8:30-9-30 AM &#10;California AB"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#ff6700"
+                android:text="Jazz - Cody Green &#10;8:30-9-30 AM &#10;Pacific C"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <Button
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:background="#ff3f3f"
+            android:text="Hip Hop - Jeremy Knutsen &#10;8:30-9-30 AM &#10;Pacific D"
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+
+            />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="9:30 AM"
+                android:id="@+id/button7" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="Mothers and Others trip to Huntington Beach shopping center &#10;9:30 AM - 3 PM"
+                android:id="@+id/button47"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+
+
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="9:45 AM"
+                android:id="@+id/button7" />
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#f4ff4c"
+                android:text="Hip Hop - Jeremy Knutsen &#10;9:45-10:45 AM &#10;Pacific D"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#ff6700"
+                android:text="Ballet - David Wilcox &#10;9:45-10:45 AM &#10;California AB"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <Button
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:background="#ff3f3f"
+            android:text="Jazz - Cody Green &#10;9:45-10:45 AM &#10;Pacific C"
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+
+            />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="11 AM"
+                android:id="@+id/button7" />
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#f4ff4c"
+                android:text="Jazz - Cody Green &#10;11 AM - 12 PM &#10;Pacific C"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#ff6700"
+                android:text="Hip Hop - Jeremy Knutsen &#10;11 AM - 12 PM &#10;Pacific D"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#ff3f3f"
+                android:text="Ballet - David Wilcox &#10;11 AM - 12 AM &#10;California AB"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+
+
+                />
+
+
+            <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="12 PM"
+            android:id="@+id/button7" />
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="Lunch &#10;12-1PM &#10;4th Floor"
+                android:id="@+id/button14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="Director's Luncheon &#10;12-1PM &#10;Avalon Room"
+                android:id="@+id/button14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                />
+
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="12:45 PM"
+                android:id="@+id/button7" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="New Master Teacher Launch - Jazz - Kat Leist &#10;12:45-1:45PM &#10;Pacific C"
+                android:id="@+id/button14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="New Master Teacher Launch - Tap - Nick Young &#10;12:45-1:45PM &#10;Pacific D"
+                android:id="@+id/button14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="2 PM"
+                android:id="@+id/button7" />
+
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#f4ff4c"
+                android:text="Performance - Bill and Robyn Brawley &#10;2-3 PM &#10;California AB"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#ff6700"
+                android:text="Jazz - Adam Parson &#10;2-3 PM &#10;Pacific C"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#ff3f3f"
+                android:text="Contemporary - Stacey Tookey &#10;2-3 PM &#10;Pacific D"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+
+
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="3:15 PM"
+                android:id="@+id/button7" />
+
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#f4ff4c"
+                android:text="Contemporary - Stacey Tookey&#10;3:15-4:15 PM &#10;Pacific D"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#ff6700"
+                android:text="Performance - Bill and Robyn Brawley &#10;3:15-4:15 PM &#10;California AB"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#ff3f3f"
+                android:text="Jazz - Adam Parson &#10;3:15-4:15 PM &#10;Pacific C"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+
+
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="4:30 PM"
+                android:id="@+id/button7" />
+
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#f4ff4c"
+                android:text="Jazz - Adam Parson &#10;4:30-5:30 PM &#10;Pacific C"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#ff6700"
+                android:text="Contemporary - Stacey Tookey&#10;4:30-5:30 PM &#10;Pacific D"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#ff3f3f"
+                android:text="Performance - Bill and Robyn Brawley &#10;4:30-5:30 PM &#10;California AB"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+
+
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="5:30 PM"
+                android:id="@+id/button7" />
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="Dinner &#10;5:30-7 PM &#10;4th Floor"
+                android:id="@+id/button14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="6 PM"
+                android:id="@+id/button7" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="DE store open &#10;6-7 PM"
+                android:id="@+id/button14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="7:30 PM"
+                android:id="@+id/button7" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="International Performance Boards Tap and Jazz &#10;7:30-10 PM &#10;California CD"
+                android:id="@+id/button14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#8DC63F"
+                android:text="Important Notice! Everyone Must pick up disney packets at California Foyer following boards! "
+                android:id="@+id/button14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>

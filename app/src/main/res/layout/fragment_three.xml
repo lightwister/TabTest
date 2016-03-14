@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Tuesday -->
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.charlie.tabtest.OneFragment">
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="60dp"
+        >
+
+
+
+        <LinearLayout
+
+
+            android:id="@+id/verticalView"
+
+            android:layout_width="fill_parent"
+
+            android:layout_height="fill_parent"
+
+            android:orientation="vertical" >
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="Tuesday, March 29"
+                android:id="@+id/button12" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="7 AM"
+                android:id="@+id/button13" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="Breakfast &#10; 7-8:30 AM &#10; 4th Floor"
+                android:id="@+id/button14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="8 AM"
+                android:id="@+id/button48" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="DE Store Open &#10;8-10:30 AM"
+                android:id="@+id/button47"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="8:15 AM"
+                android:id="@+id/button7" />
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#f4ff4c"
+                android:text="Contemporary - Kathryn McCormick &#10;8:15-9-30 AM &#10;Pacific C"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#ff6700"
+                android:text="African - Anindo Marshall &#10;8:15-9-30 AM &#10;California AB"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                /> <Button
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:background="#ff3f3f"
+            android:text="Ballet - Melissa Sandvig &#10;8:15-9-30 AM &#10;Pacific D"
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+
+            />
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="Mothers and Others Pilates class &#10;8:15-9:15 AM &#10;Pacific A"
+                android:id="@+id/button46"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="9:45 AM"
+                android:textSize="30dp"
+                android:id="@+id/button17" />
+
+
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#f4ff4c"
+                android:text="Ballet - Melissa Sandvig &#10;9:45-10:45 AM &#10;Pacific D"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#ff6700"
+                android:text="Contemporary - Kathryn MCCORMICK &#10;9:45-10:45 AM &#10;Pacific C"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                /> <Button
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:background="#ff3f3f"
+            android:text="African Anindo Marshall &#10;9:45-10:45 AM &#10;California AB"
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+
+            />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="Directors only - Lyrical - Suzy Miller &#10;9:45-10:45 AM &#10;Pacific B"
+                android:id="@+id/button45"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="10 AM"
+                android:textSize="30dp"
+                android:id="@+id/button44" />
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#AAEEFF"
+                android:text="Mothers and Others Non - Dancer trip to Hollywood &#10;10 AM - 4 PM"
+                android:id="@+id/button43"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="11 AM"
+                android:textSize="30dp"
+                android:id="@+id/button42" />
+
+
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#f4ff4c"
+                android:text="African Anindo Marshall &#10;11 AM - 12 PM &#10;California AB"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#ff6700"
+                android:text="Ballet - Melissa Sandvig &#10;11 AM - 12 PM &#10;Pacific D"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                /> <Button
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:background="#ff3f3f"
+            android:text="Contemporary - Kathryn MCCORMICK &#10;11 AM - 12 PM &#10;Pacific C"
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+
+            />
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="12 PM"
+                android:textSize="30dp"
+                android:id="@+id/button41" />
+
+
+
+            <Button
+
+                android:id="@+id/button22"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="3dp"
+
+                android:layout_height="wrap_content"
+                android:background="#AAEEFF"
+                android:text="Lunch&#10;12-1:30 PM&#10;4th Floor"
+                android:gravity="left|center_vertical"
+                android:padding="10dp"
+                />
+
+
+            <Button
+
+                android:id="@+id/button40"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="3dp"
+
+                android:layout_height="wrap_content"
+                android:background="#AAEEFF"
+                android:text="Director's Luncheon&#10;12-1:30 PM&#10;Avalon Room"
+                android:gravity="left|center_vertical"
+                android:padding="10dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="1 PM"
+                android:textSize="30dp"
+                android:id="@+id/button24" />
+
+
+            <Button
+
+                android:id="@+id/button39"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="3dp"
+
+                android:layout_height="wrap_content"
+                android:background="#AAEEFF"
+                android:text="Tap Jam Mark Goodman&#10;1-1:30 PM&#10;California AB"
+                android:gravity="left|center_vertical"
+                android:padding="10dp"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="1:30 PM"
+                android:textSize="30dp"
+                android:id="@+id/button38" />
+
+
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#f4ff4c"
+                android:text="Jazz - Alex Little &#10;1:30-2:30 PM &#10;Pacific C"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                />
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#ff6700"
+                android:text="Musical Theater - Gregg Russell &#10;1:30-2:30 PM  &#10;Pacific D"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#ff3f3f"
+                android:text="Body Percussion - Khalid&#10;1:30- 2:30 PM  &#10;California AB"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="2 PM"
+                android:textSize="30dp"
+                android:id="@+id/button37" />
+
+
+            <Button
+
+                android:id="@+id/button36"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="3dp"
+
+                android:layout_height="wrap_content"
+                android:background="#AAEEFF"
+                android:text="Director only - Go2Talent - Terry Lindholm&#10;2-3 PM&#10;California A"
+                android:gravity="left|center_vertical"
+                android:padding="10dp"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="2:45 PM"
+                android:textSize="30dp"
+                android:id="@+id/button35" />
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#f4ff4c"
+                android:text="Body Percussion - Khalid &#10;2:45-3:45 PM &#10;California AB"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                />
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#ff6700"
+                android:text="Jazz - Alex Little  &#10;2:45-3:45 PM  &#10;Pacific C"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#ff3f3f"
+                android:text="Musical Theater - Gregg Russell&#10;2:45-3:45 PM  &#10;Pacific D"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="4 PM"
+                android:textSize="30dp"
+                android:id="@+id/button34" />
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#f4ff4c"
+                android:text="Musical Theater - Gregg Russell &#10;4-5 PM &#10;Pacific D"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                />
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#ff6700"
+                android:text="Body Percussion - Khalid  &#10;4-5 PM  &#10;California AB"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:background="#ff3f3f"
+                android:text="Jazz - Alex little / professional audition session with Terry Lindhom from Go2Talent&#10;4-5:30 PM  &#10;Pacific C"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="5 PM"
+                android:textSize="30dp"
+                android:id="@+id/button33" />
+
+
+            <Button
+
+                android:id="@+id/button32"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="3dp"
+
+                android:layout_height="wrap_content"
+                android:background="#AAEEFF"
+                android:text="Dinner&#10;5-7 PM&#10;4th Floor"
+                android:gravity="left|center_vertical"
+                android:padding="10dp"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="7:30 PM"
+                android:textSize="30dp"
+                android:id="@+id/button31" />
+
+
+            <Button
+
+                android:id="@+id/button30"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="3dp"
+
+                android:layout_height="wrap_content"
+                android:background="#AAEEFF"
+                android:text="Concert&#10;7:30-9:30 PM&#10;California CD"
+                android:gravity="left|center_vertical"
+                android:padding="10dp"
+                />
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
