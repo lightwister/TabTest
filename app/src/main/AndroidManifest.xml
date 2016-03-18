@@ -6,23 +6,34 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="DANCE EX SCHEDULE"
-        android:theme="@style/MyMaterialTheme" >
+        android:theme="@style/MyMaterialTheme"
+
+        >
         <activity
             android:name=".MainActivity"
 
             android:label="DANCE EX SCHEDULE" >
+
+        </activity>
+        <activity
+            android:allowBackup="true"
+            android:name=".MainMenu"
+            android:label="Dance Excellence"
+
+
+            >
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
+            android:name=".Merch"
             android:allowBackup="true"
-            android:name="MainMenu"
-            android:label="Home page"
-
-
             />
 
 
